@@ -7,12 +7,19 @@ body{
 display:flex;
 padding:10px;
 margin:10px;
-background:lightgray;
+background:blanchedalmond;
+border-radius: 5px;
 }
 
 .assignment img{
     width:200px;
-    padding:10px;
+   margin: 10px;
+    border: 4px solid black;
+}
+
+
+.assignment img:hover{
+    border: 4px dashed blanchedalmond;
 }
 
 
@@ -20,4 +27,18 @@ hi{
     color: black;
     text-align: center;
     font-size: xx-large;
+}
+
+
+hi:hover{
+    color: blanchedalmond;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: white;
 }
