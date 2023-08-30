@@ -1,3 +1,38 @@
+/* Structure*/
+
 body {
  background-color:darksalmon   
+}
+/*Tables */
+table{
+    border-collapse: collapse;
+}
+td,th {
+    border: 1px solid red;
+ background-color: khaki;
+}
+th{
+    background-color:darkcyan;
+}
+
+/* Typography (Fonts)*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:crimson
+}
+h1{
+font-family: cursive;
+    color:chartreuse
+}
+h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgreen
+}
+table{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:deeppink
 }
