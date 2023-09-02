@@ -12,7 +12,7 @@ body{
     
 }
 /*Hovering*/
-#links a{
+#links a:any-link{
 text-decoration: none;
     color: #F4EAD4;
     
@@ -49,10 +49,5 @@ color:#8FCFDF
 p{
     color:#F4EAD4
 }
-a:link{
-    color:#F4EAD4
-}
-a:visited{
-    color:#F4EAD4
-}
+
 
