@@ -9,6 +9,12 @@ body{
     margin: auto;
     padding: 5px;
 }
+
+#links a{
+
+    color:#F2D4C2
+}
+
 p{
     color:#F2D4C2
 }
@@ -22,9 +28,4 @@ strong{
     color:#73412F
 }
 
-a:link{
-    color:#F2D4C2
-}
-a:visited{
-    color:#D9A171
-}
+
