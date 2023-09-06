@@ -74,7 +74,7 @@ body{
     display:flex;
    }
 
-    #main-nav li, .col1of2,.col1of3{
+    #main-nav li,.col1of2,.col1of3,.flex-container{
         flex: 1;
     }
     .col2of3,.main1{
