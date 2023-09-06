@@ -4,7 +4,7 @@
     background-color: blanchedalmond;
 }
 .col1of2 {
-    background-color: darkgoldenrod;
+    background-color: blanchedalmond;
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
@@ -17,18 +17,25 @@
 }
 
 #main-footer{
-    background-color: cornflowerblue;
+    background-color:blanchedalmond;
     padding: 5px;
 }
 
+
+
 .main1{
-    background-color: brown;
-    width: 250px;
+    background-color: palevioletred;
+    margin-right: 100px;
 
 }
 
 .main2{
-    background-color: aqua;
+    background-color: blanchedalmond;
+    padding-left: 100px;
+    padding-right: 150px;
+   p{
+    text-align: left;
+   }
     
 }
 
@@ -43,7 +50,7 @@
 #main-nav li{
     list-style-type: none;
     padding: 5px;
-    background-color: aqua;
+    background-color: palevioletred;
     border-bottom: 1px solid blanchedalmond
 }
 
@@ -60,6 +67,9 @@ body{
 #main-header h1{
     text-align: center;
 }
+
+
+
 #main-footer h5{
     text-align: center;
 }
@@ -68,13 +78,26 @@ body{
     text-align: right;
 }
 
+
+img{
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+}
+
 /*Larger Resolutiond*/
 @media (min-width:900px) {
    #main-nav ul, .flex-container{
     display:flex;
    }
 
-    #main-nav li,.col1of2,.col1of3,.image1of3{
+   
+    #main-nav li,.col1of2,.col1of3{
         flex: 1;
     }
     .col2of3,.main1{
