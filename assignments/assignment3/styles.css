@@ -68,24 +68,17 @@ body{
     text-align: right;
 }
 
-#presetimages p{
-    align-items: baseline;
-}
-
 /*Larger Resolutiond*/
 @media (min-width:900px) {
    #main-nav ul, .flex-container{
     display:flex;
    }
-  
 
     #main-nav li, .col1of2,.col1of3{
         flex: 1;
     }
-    .col2of3,.main1,.images1of3{
+    .col2of3,.main1{
         flex:2;
     }
-
-
 }
 
