@@ -1,31 +1,57 @@
 /* Fonts */
+h3{
+    color:blanchedalmond;
+}
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #7A9FBF;
 }
-#content {
-    background-color: gray;
-    width: 75%;
-    margin: auto;
-    padding: 5px;
+#main-nav{
+    text-align: center;
+    color:blanchedalmond
+    
 }
 
-#links a{
-
-    color:#F2D4C2
+.row1 {
+    background-color: darkred;
+    width: 75%;
+    margin: 5%;
+    align-items: center;
+    border-radius: 2px;
+    
+}
+.row2{
+    background-color:grey;
+    width: 75%;
+    margin: 5%;
+    
+    align-items: center;
+    border-radius: 2px;
+    
 }
 
 p{
-    color:#F2D4C2
+    font-size: larger;
 }
-h1{
-    color:#F2D4C2
-}
-h2{
-    color:#D9A171
-}
-strong{
-    color:#73412F
+
+#links a,p{
+text-decoration: none;
+    color:blanchedalmond
+
+    
 }
 
 
+
+@media (min-width:900px) {
+    .flex-container,.flex-container2{
+     display:flex;
+     
+    }
+    
+    .row1,.row2{
+        flex:1;
+    }
+
+}

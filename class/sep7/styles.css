@@ -1,0 +1,95 @@
+/*Structure*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main-header, #main-footer {
+    margin:auto;
+    width:80%;
+    
+    padding: 5px; 
+}
+#main-header {
+    background-color: brown;
+}
+
+#main-footer {
+   background-color: blanchedalmond;
+}
+
+/* Main Navigation*/
+
+.horizontal-nav ul{
+    padding-left: 0px;
+
+}
+/* zero for top and bottom margin*/
+.horizontal-nav li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.horizontal-nav  a{
+    text-decoration: none;
+} 
+
+/* Main navigation*/
+
+
+/*User navigation*/
+
+/*Typography*/
+
+h1{
+    text-align: center;
+}
+
+#main-footer ul{
+    padding-left: 1%;
+}
+
+#main-footer a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/*Gets rid of bullets*/
+#main-footer li {
+    list-style-type: none;
+}
+
+.footer-logo-text{
+    font-size: 1Sem; 
+}
+
+/*Larger res*/
+@media only screen and (min-width:768px)
+{
+.horizontal-nav ul,.flex-container {
+    display:flex;
+}
+#main-nav ul{
+    justify-content: center;
+}
+/*
+#user-nav {
+    position: absolute;
+    top: 2%;
+    right:10%;
+}
+*/
+
+/*spaces the items in the class*/
+.flex-container {           
+    justify-content: space-between;
+    
+}
+.col1of2{
+    flex:1;
+}
+
+
+
+}
