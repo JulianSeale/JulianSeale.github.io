@@ -1,0 +1,349 @@
+
+
+/* Structure*/
+.main-header{
+    position: sticky;
+    top:0;
+}
+#main-header {
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+/*Navigation*/
+#main-nav ul{
+    padding-left:0;
+    text-align: center;
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+}
+
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #73000A;
+    border-bottom: 1px solid blanchedalmond
+    
+}
+
+#main-nav a{
+    text-decoration: none;
+    color:white 
+    
+   
+}
+
+ .horizontal-nav a{
+    text-decoration: none;
+    color:white
+}
+
+#main-nav2{
+
+    float: right;
+}
+
+.horizontal-nav ul{
+    padding-left: 0px;
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+    
+}
+
+.horizontal-nav li {
+    list-style-type: none;
+    margin: 0 5px;
+    padding-right: .6em;
+    float: right;
+    font-size: small;
+}
+
+#main-footer li {
+    list-style-type: none;
+}
+
+
+
+.footer-logo-text{
+    font-size: 1Sem; 
+}
+
+
+
+
+
+
+/*Typography*/
+#main-header h2{
+    text-align: left;
+    color: white;
+    font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+
+}
+.descrip1 {
+    text-align:center;
+    font-size: 23px;
+
+}
+
+.left-header input[type=text]{
+    text-align: left;
+    background-position: bottom;
+    
+}
+
+
+
+
+/* OVER LAPPING IMAGES/TEXT*/
+/*USEFUL?
+#overlapping {
+    background-color: #73000A;
+    padding-left: 40%;
+}
+#overlapping h1{
+color: white;
+font-size: clamp(37.5px, (7vw + 1rem), 76px);
+font-family: "Berlingske Sans Extracondensed", "Impact", sans-serif;
+text-align: left;
+}
+#fibiimag{
+    position: fixed;
+}
+*/
+
+.image-container {
+    position:sticky;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 90%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    background-color:#73000A; 
+    color:white; 
+    padding: 10px 20px; 
+    font-size: 67px; 
+    text-align: center;
+  }
+
+  .overlay-text2 {
+    position: absolute;
+    top: 70%; 
+    left: 40%; 
+    transform: translate(-50%, -50%); 
+    background-color:#73000A; 
+    color:white; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+  }
+
+ .image,.image2,.image3,.image4{
+    max-width: 100%;
+    max-height: 100%;
+ }
+ .text,.text2,.text5,.text7,.text8{
+    font-size: 20px;
+  padding-left: 20px;
+  text-align: center;
+  vertical-align: super;
+  color: white;
+ }
+
+ .text3{
+    text-align: center;
+    font-size: 20px;
+     
+ }
+ .text3 h1{
+    color: #73000A;
+    font-size: 40px;
+ }
+
+
+ .text6{
+    text-align: center;
+    font-size: 20px;
+     
+ }
+ .text6 h1{
+    color: #73000A;
+    font-size: 40px;
+ }
+
+
+ #overlap2 {
+    background-color:#73000A;
+padding: 12%;
+}
+
+#overlap3{
+    background-color:black;
+    padding: 10%;
+    margin-right: 1%;
+    
+}
+
+#overlap5{
+    background-color:#73000A;
+padding: 21%;
+}
+
+#overlap7
+{
+    background-color:#1F414D;
+padding: 17%;
+}
+
+#overlap8{
+    background-color:#73000A;
+padding: 24%;
+}
+
+
+
+#but1,#but2{
+    color: white;
+    text-decoration: none;
+    border-style: double;
+    border-color: white;
+    background-color: #73000A;
+    font-size: 20px;
+}
+
+
+#but3,#but5,#but6{
+    color: white;
+    text-decoration: none;
+    border-style: double;
+    border-color: white;
+    background-color: #73000A;
+    float: center;
+    font-size: 30px;
+}
+
+#but4{
+    color: white;
+    text-decoration: none;
+    border-style: double;
+    border-color: white;
+    background-color: #73000A;
+    float: left;
+    font-size: 20px;
+}
+
+#but7{
+    color: white;
+    text-decoration: none;
+    border-style: double;
+    border-color: white;
+    background-color: #73000A;
+    float: left;
+    font-size: 20px;
+}
+
+#but8
+{
+    color: white;
+    text-decoration: none;
+    border-style: double;
+    border-color: white;
+    background-color: #73000A;
+    float: left;
+    font-size: 20px;
+}
+
+
+/*Research Stories */
+
+.rows{
+    
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5%;
+    
+}
+
+.text4 a{
+
+text-decoration: none;
+color: #73000A;
+
+}
+
+
+.col1of2 {
+    background-color:#73000A;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.col1of2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.col1of2 li {
+    padding-bottom: 16px;
+}
+
+.col1of2 h3{
+    color: white;
+}
+
+.col1of2 li{
+    color: white;
+}
+.col1of2 h2{
+    color: white;
+}
+
+
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul, .flex-container,.left-header,.horizontal-nav ul,.flex-container3,.flex-container4{
+     display:flex;
+    }
+    .flex-container2{
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+
+      
+
+
+
+    #main-nav li,.flex-container2{
+        flex: 1;
+    }
+
+    .rows{
+    flex-wrap: nowrap;
+    }
+
+    /*spaces the items in the class*/
+.flex-container,.main1,.flex-container3 {           
+    justify-content: space-between;
+    
+}
+
+.col1of2{
+    flex:1;
+    
+}
+
+
+
+} 
