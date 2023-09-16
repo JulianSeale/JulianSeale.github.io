@@ -1,5 +1,5 @@
 /*Structure*/
-#main-header {
+#main-header,#main-footer {
     background-color: blanchedalmond;
     text-align: center;
 }
@@ -27,11 +27,24 @@
 
 #output{
     
-        background-color: yellow;
-        padding: 5px;
+        background-color:grey;
+        padding: 1px;
         margin: 5px;
         border-radius: 2px;
+        
     
+}
+
+#output h3{
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: left;
+    
+}
+
+#output p{
+    color: blanchedalmond;
+    font-size: 20px;
 }
 
 /*Animate*/

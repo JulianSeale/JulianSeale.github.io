@@ -1,9 +1,9 @@
 // Create something to show and hide an image everytime its clicked
-const showJasper = ()  =>{
+const showBear = ()  =>{
     document.getElementById("bear").classList.remove("hide")
     }
     
-    const hideJasper = () =>{
+    const hideBear = () =>{
     document.getElementById("bear").classList.add("hide");
     }
    ///////////////////////////////////////////////////////////////
@@ -21,29 +21,75 @@ const showJasper = ()  =>{
 
     //gets the value from the text box
   //  const prodName = document.getElementById("txt-product-name").value;
-
+/*
 const changeText = () => {
+    //declared variable
     const prodName = document.getElementById("txt-product-name").value;
     const usercomment = document.getElementById("txt-comment").value;
     const rating = document.getElementById("txt-rating").value;
     const username = document.getElementById("txt-user-name").value;
-    const head = document.getElementById("userheader");
-     head.innerHTML= prodName;
+    const divuser = document.getElementById("output")
+     
 
-     const body = document.getElementById("userbody")
-     body.innerHTML=rating + "/5 stars " + usercomment 
+    //Updates div but does not create a new one
+    const usehead = document.getElementById("userheader")
+    usehead.innerHTML= prodName;
 
-     const footer = document.getElementById("userfooter")
-     footer.innerHTML= "by: " + username
+     const usebody = document.getElementById("userbody")
+     usebody.innerHTML=rating + "/5 stars " + usercomment 
 
+     const usefooter = document.getElementById("userfooter")
+     usefooter.innerHTML= "by: " + username
+
+
+      //Variables to help add another div?
+ //Variables to help add another div?
+
+      
  }
+ */
+//Restart
+ const changeText = () => {
+    const prodName = document.getElementById("txt-product-name").value;
+    const usercomment = document.getElementById("txt-comment").value;
+    const rating = document.getElementById("txt-rating").value;
+    const username = document.getElementById("txt-user-name").value;
 
- 
+    // Create a new div element
+    const newDiv = document.createElement("div");
+    newDiv.className = "comment"; // 
+
+    // Create the content for the new div
+    const usehead = document.createElement("h3");
+    usehead.innerHTML = prodName;
+
+    const usebody = document.createElement("p");
+    usebody.innerHTML = rating + "/5 stars " + usercomment;
+
+    const usefooter = document.createElement("p");
+    usefooter.innerHTML = "by: " + username;
+
+    // Append the elements to the new div
+    newDiv.appendChild(usehead);
+    newDiv.appendChild(usebody);
+    newDiv.appendChild(usefooter);
+
+    // Get the existing output div and append the new div to it
+    const outputDiv = document.getElementById("output");
+    outputDiv.appendChild(newDiv);
+
+    // Clear the input fields after adding the comment
+    document.getElementById("txt-product-name").value = "";
+    document.getElementById("txt-comment").value = "";
+    document.getElementById("txt-rating").value = "";
+    document.getElementById("txt-user-name").value = "";
+};
+
 
     window.onload = () => {
 
-       document.getElementById("button-show").onclick = showJasper;
-        document.getElementById("button-hide").onclick = hideJasper;
+       document.getElementById("button-show").onclick = showBear;
+        document.getElementById("button-hide").onclick = hideBear;
         document.getElementById("button-dance").onclick = moveCircle;
         document.getElementById("button-comment").onclick = changeText;
     }

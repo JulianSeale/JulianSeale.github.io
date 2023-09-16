@@ -26,17 +26,12 @@ p{
     border-top: 2px;
     border-radius: 2px;
     margin:15px;
-    
-    align-items: center;
+    padding: 0.5px;
+    height: 370px;
+    width: 370px;
     
 }
-.row2{
-    background-color:grey;
-    margin:15px;
-    border-top: 2px;
-    align-items: center;
-    border-radius: 2px;
-}
+
 
 
 
@@ -53,7 +48,7 @@ text-decoration: none;
     .flex-container,.flex-container2{
      display:flex;
     flex-wrap: wrap;
-     justify-content: center;
+   justify-content: center;
      
     }
     
