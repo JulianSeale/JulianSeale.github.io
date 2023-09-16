@@ -1,0 +1,87 @@
+/*Structure*/
+#main-header {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+
+.col1of3 {
+    background-color: lightblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.col1of3 h3 {
+    text-align: center;
+}
+
+/*java */
+.hide{
+    display: none;
+}
+
+.show{
+    display: none;
+}
+
+#output{
+    
+        background-color: yellow;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 2px;
+    
+}
+
+/*Animate*/
+#circle{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+    border-radius: 50%;
+    display: inline-block;
+    /*need to use in order to animate*/
+    position: relative;
+    align-content: center;
+    
+}
+
+.move-circle{
+    animation-name: anim-circle;
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+}
+
+/* Input */
+
+
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    
+     .col1of3{
+         flex: 1;
+     }
+     .col2of3,.main1{
+         flex:2;
+     }
+ }
+
+
+ /*used to animate*/
+@keyframes anim-circle {
+    /*Percentages of the animation*/
+     0% {background-color: red;
+     right: -100px;}
+ 
+     50%{background-color: purple;
+     bottom: -100px}
+     100%{background-color: white;
+     left:0px; }
+ }

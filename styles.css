@@ -52,12 +52,14 @@ text-decoration: none;
 @media (min-width:900px) {
     .flex-container,.flex-container2{
      display:flex;
-    
+    flex-wrap: wrap;
+     justify-content: center;
      
     }
     
-    .row1,.row2{
-        flex:1;
+    .row1{
+        flex:3;
+        
     }
 
 }
