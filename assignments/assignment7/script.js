@@ -6,13 +6,16 @@ const toggleNav = () => {
 
 const changeExercise1 = () => {
     document.getElementById("exercise1").classList.toggle("hidden")
+    document.getElementById("color1").classList.toggle("hidden");
 }
 
 const changeExercise2 = () => {
     
     document.getElementById("exercise2").classList.toggle("hidden")
+    document.getElementById("color2").classList.toggle("hidden");
    
 }
+
 
 //Code for exercise 1
 const sortperson = () => {
@@ -100,10 +103,13 @@ const fillbar = () => {
 
 
 
+
+
 window.onload = () => {
     
     document.getElementById("exe1").onclick = changeExercise1;
     document.getElementById("exe2").onclick = changeExercise2;
+    
     document.getElementById("hamburger").onclick = toggleNav;
     document.getElementById("button-ages").onclick = sortperson;
     document.getElementById("button-display").onclick = fillbar;

@@ -14,6 +14,8 @@ body{
     background-color: lightgreen;
 }
 
+
+
 #main-content {
     background-color: lightgreen;
     
@@ -23,6 +25,7 @@ body{
 #main-header h1{
     text-align: center;
 }
+
 
 
 
@@ -46,21 +49,52 @@ label {
 }
 
 /*Navigation*/
+#main-nav{
+    position: relative;
+}
 #main-nav ul{
     padding-left:0;
     text-align: center;
+    
 }
+
 
 #main-nav li{
     list-style-type: none;
     padding: 5px;
     background-color: white;
     border-bottom: 1px solid blanchedalmond
+    
+    
 }
+
 
 #main-nav a {
     text-decoration: none;
     color:black
+    
+}
+
+#color1{
+   
+    position: relative;
+    top: -15px;
+    left:0%;
+        background-color: black; 
+        width: 50%;
+        height: 10px;
+        
+}
+
+#color2{
+   
+    position: relative;
+    top: -25px;
+    right:-50%;
+        background-color: red; 
+        width: 50%;
+        height: 10px;
+        
 }
 
 #hamburger div {
@@ -69,6 +103,18 @@ label {
     background-color: black;
     margin: 6px 0;
 }
+
+#exe1:hover{
+    background-color: rgba(148,234,148,1);
+   
+}
+
+#exe2:hover{
+    background-color: rgba(148,234,148,1);
+}
+
+
+
 
 #rectangle {
     width:110px;
@@ -124,17 +170,15 @@ label {
     }
     .columns {
         display: flex;
-        
+         
     }
 
-    
-
- 
-    
      #main-nav li{
          flex: 1;
          display: inline-block;
      }
+    
+     
      #hamburger {
         display: none;
     }
@@ -142,3 +186,5 @@ label {
         display: block;
     }
     }
+/*Smaller RES*/
+
