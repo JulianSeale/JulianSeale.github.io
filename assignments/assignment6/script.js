@@ -18,36 +18,6 @@ const showBear = ()  =>{
 
 //Create something for the users input to store multiple times
 
-
-    //gets the value from the text box
-  //  const prodName = document.getElementById("txt-product-name").value;
-/*
-const changeText = () => {
-    //declared variable
-    const prodName = document.getElementById("txt-product-name").value;
-    const usercomment = document.getElementById("txt-comment").value;
-    const rating = document.getElementById("txt-rating").value;
-    const username = document.getElementById("txt-user-name").value;
-    const divuser = document.getElementById("output")
-     
-
-    //Updates div but does not create a new one
-    const usehead = document.getElementById("userheader")
-    usehead.innerHTML= prodName;
-
-     const usebody = document.getElementById("userbody")
-     usebody.innerHTML=rating + "/5 stars " + usercomment 
-
-     const usefooter = document.getElementById("userfooter")
-     usefooter.innerHTML= "by: " + username
-
-
-      //Variables to help add another div?
- //Variables to help add another div?
-
-      
- }
- */
 //Restart
  const changeText = () => {
     const prodName = document.getElementById("txt-product-name").value;

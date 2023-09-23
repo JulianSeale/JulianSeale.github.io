@@ -1,0 +1,32 @@
+#square{
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    /*need to use in order to animate*/
+    position: relative;
+    top:100px;
+    
+}
+
+.move-square{
+    animation-name: anim-square;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+
+
+/*used to animate*/
+@keyframes anim-square {
+   /*Percentages of the animation*/
+    0% {background-color: cornflowerblue;
+    top:0px;}
+
+    50%{background-color: green;
+    top:100px}
+    100%{background-color: red;
+    top:0px; }
+}
+

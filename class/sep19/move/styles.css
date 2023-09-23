@@ -1,4 +1,4 @@
-#circle{
+#square{
     background-color: blanchedalmond;
     width: 100px;
     height: 100px;
@@ -17,7 +17,6 @@
 }
 
 
-
 /*used to animate*/
 @keyframes anim-square {
    /*Percentages of the animation*/
@@ -28,5 +27,6 @@
     top:100px}
     100%{background-color: red;
     top:0px; }
+
 }
 

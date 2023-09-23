@@ -1,0 +1,144 @@
+/*Structure  */
+:root{
+    --numsmall:25%;
+    --nummed:50%;
+    --numlarge:75%;
+    
+}
+
+body{
+    background-color: bisque;
+}
+
+#main-header {
+    background-color: lightgreen;
+}
+
+#main-content {
+    background-color: lightgreen;
+    
+}
+
+
+#main-header h1{
+    text-align: center;
+}
+
+
+
+.padded-area {
+    padding: 5px;
+    margin: auto;
+    
+   width: 50%;
+}
+
+ /* input */
+ label,
+input {
+    display: block;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    padding: 5px;
+}
+
+/*Navigation*/
+#main-nav ul{
+    padding-left:0;
+    text-align: center;
+}
+
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid blanchedalmond
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:black
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+#rectangle {
+    width:110px;
+    height: 400px;
+    background: white;
+    
+}
+
+#rectangle.twenfive{
+    background: linear-gradient(180deg, rgba(255,255,255,1) var(--numlarge), rgba(255,0,0,1) var(--numsmall) 100%);
+
+}
+
+#rectangle.fifty{
+     background: linear-gradient(180deg, rgba(255,255,255,1) var(--nummed), rgba(255,0,0,1) var(--nummed) 100%);
+ 
+ }
+
+ #rectangle.sevenfive{
+    background: linear-gradient(180deg, rgba(255,255,255,1) var(--numsmall), rgba(255,0,0,1) var(--numlarge) 100%);
+ 
+}
+
+#rectangle.onehun{
+    background: linear-gradient(180deg, rgba(255,0,0,1) var(--numsmall), rgba(255,0,0,1) var(--numlarge) 100%);
+ 
+}
+
+
+
+.hide-small {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+.show{
+    display: block;
+}
+/* BODY IDS */
+
+
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul{
+     display:flex;
+    }
+    .columns {
+        display: flex;
+        
+    }
+
+    
+
+ 
+    
+     #main-nav li{
+         flex: 1;
+         display: inline-block;
+     }
+     #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+    }
