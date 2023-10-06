@@ -22,7 +22,7 @@ const movingimg = () => {
     isRunning = !isRunning;
     runningmansc.style.display = isRunning ? "block" : "none";
     walkingmansc.style.display = isRunning ? "none" : "block";
-    if(margin > 600)
+    if(margin > 600)//pixels width
     {
         clearInterval(interval)
     }
