@@ -1,0 +1,124 @@
+#main-header {
+    background-color: blanchedalmond;
+}
+
+#main-nav ul{
+    padding-left:0;
+    text-align: center;
+}
+
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: palevioletred;
+    border-bottom: 1px solid blanchedalmond
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:black
+}
+
+#topbar h1,#topbar h3{
+    margin:0;
+}
+#topbar h1{
+    font-size: 50px;
+    padding-left: 14%;
+}
+a{
+    font-size: 30px;
+}
+
+#home{
+position: absolute;
+left:0%;
+height: 250px;
+width: 200px;
+top:1%;
+font-size: 50px;
+}
+
+#subhead h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#con{
+font-size: 30px;
+text-align: center;
+
+}
+
+/* Style the footer */
+footer {
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    
+    
+}
+
+/* Style the footer headers */
+.footer-header {
+    display: inline-block;
+    margin: 0 20px; /* Adjust the margin for horizontal spacing */
+    font-weight: bold;
+    
+}
+
+
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 5px; /* Adjust the margin to control spacing between header and text */
+}
+
+
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    #topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #prices{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #buttonsinc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+     #main-nav li{
+         flex: 1;
+     }
+
+     .flex-container2{
+        flex:1;
+       }
+       .row1{
+           flex:3;
+           
+       }
+
+       footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    
+ }
