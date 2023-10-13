@@ -32,12 +32,15 @@ p{
     
 }
 
+h3{
+    text-align: center;
+}
 
 
-
-#links a,p{
+ a,p{
 text-decoration: none;
-    color:blanchedalmond
+    color:blanchedalmond;
+text-align: center;
 
     
 }
