@@ -1,0 +1,185 @@
+#main-header {
+    background-color: #D8D7D9;
+}
+
+body{
+    background-color: #BF9397;
+}
+
+#main-nav ul{
+    padding-left:0;
+    text-align: center;
+}
+
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: palevioletred;
+    border-bottom: 1px solid#D8D7D9;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:black
+}
+
+#topbar h1,#topbar h3{
+    margin:0;
+}
+#topbar h1{
+    font-size: 50px;
+    padding-left: 40%;
+    color: #BF8C2C;
+}
+a{
+    font-size: 30px;
+}
+p{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+color:#D8D7D9;
+}
+#home{
+
+   
+    height: 75px;
+    width: 70px;
+    top:1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #BF8C2C;
+    background-color: #D8D7D9;
+}
+
+#subhead h3{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+#con{
+font-size: 30px;
+text-align: center;
+color: #BF8C2C;
+
+}
+
+/* Style the footer */
+footer {
+    background-color:#D8D7D9;
+    color: #BF8C2C;
+    text-align: center;
+    padding: 20px 0;
+    
+    
+}
+
+/* Style the footer headers */
+.footer-header {
+    display: inline-block;
+    margin: 0 20px; /* Adjust the margin for horizontal spacing */
+    font-weight: bold;
+    
+}
+
+
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 5px; /* Adjust the margin to control spacing between header and text */
+}
+
+
+#coimg{
+padding-left: 45%;
+}
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    #topbar{
+        display: flex;
+        align-items: center;
+      
+    }
+
+    #prices{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #buttonsinc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+     #main-nav li{
+         flex: 1;
+     }
+
+     .flex-container2{
+        flex:1;
+       }
+       .row1{
+           flex:3;
+           
+       }
+
+       footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    
+ }
+
+ /*Larger Resolutiond*/
+@media (max-width:768px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    #topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #prices{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #buttonsinc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+     #main-nav li{
+         flex: 1;
+     }
+
+     .flex-container2{
+        flex:1;
+       }
+       .row1{
+           flex:3;
+           
+       }
+
+       footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+    
+ }

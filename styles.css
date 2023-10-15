@@ -47,6 +47,7 @@ text-align: center;
 
 
 
+
 @media (min-width:900px) {
     .flex-container,.flex-container2{
      display:flex;
@@ -58,6 +59,14 @@ text-align: center;
     .row1{
         flex:3;
         
+    }
+
+
+
+    #topbar{
+        display: flex;
+        align-items: center;
+       justify-content: space-evenly;
     }
 
 }

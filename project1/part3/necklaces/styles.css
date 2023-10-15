@@ -1,0 +1,232 @@
+#main-header {
+    background-color: #D8D7D9;
+}
+body{
+    background-color: #BF9397;
+}
+
+#main-nav ul{
+    padding-left:0;
+    text-align: center;
+}
+
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: palevioletred;
+    border-bottom: 1px solid blanchedalmond
+}
+
+#main-nav a {
+    text-decoration: none;
+    color:#BF8C2C
+}
+
+#topbar h1,#topbar h3{
+    margin:0;
+}
+#topbar h1{
+    font-size: 50px;
+    padding-right: 18%;
+    color: #BF8C2C;
+}
+
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #BF8C2C;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#home{
+
+left:6%;
+height: 75px;
+width: 70px;
+top:1%;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #BF8C2C;
+background-color: #D8D7D9;
+}
+
+#topbar{
+    padding-left: 3%;
+}
+
+#subhead h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.row1{
+    background-color:grey;
+    
+   
+    border-top: 2px;
+    border-radius: 2px;
+    margin:50px;
+    padding: 0.5px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+#cate{
+text-align: center;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#price1{
+    padding-left: 20%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#price2{
+    padding-right: 2%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#price3{
+    padding-right: 20%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#price4{
+    padding-left: 20%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#price5{
+    padding-right: 2%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#price6{
+    padding-right: 20%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#but1{
+    padding-left: 20%;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+#but2{
+    padding-right: 2%;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+#but3{
+    padding-right: 20%;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#but4{
+    padding-left: 20%;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#but5{
+    padding-right: 2%;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#but6{
+    padding-right: 20%;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+
+
+
+
+
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    #topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #prices{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #buttonsinc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+     #main-nav li{
+         flex: 1;
+     }
+
+     .flex-container2{
+        display:flex;
+       flex-wrap: wrap;
+    justify-content: center;
+       }
+       .row1{
+           flex:3;
+           
+       }
+    
+ }
+
+ /*Larger Resolutiond*/
+@media (max-width:768px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    #topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #prices{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #buttonsinc{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+     #main-nav li{
+         flex: 1;
+     }
+
+     .flex-container2{
+        display:flex;
+       flex-wrap: wrap;
+    justify-content: center;
+       }
+       .row1{
+           flex:3;
+           
+       }
+    
+ }

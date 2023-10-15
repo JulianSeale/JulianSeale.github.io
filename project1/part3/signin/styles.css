@@ -1,0 +1,53 @@
+
+body, h1, p, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BF9397;
+}
+
+#main-header {
+    text-align: center;
+    background-color:#A67C49;
+    color: #BF9397 ;
+    padding: 20px 0;
+}
+
+#userN, #passW {
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #D8D7D9;
+    padding: 5%;
+    border: 1px solid #D8D7D9;
+    border-radius: 4px;
+    color: #BF9397;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button#reg {
+    background-color: gray;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
