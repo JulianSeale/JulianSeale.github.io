@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #BF9397;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #D8D7D9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #BF9397;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #BF9397;
+}
+
+.gem-image {
+    margin-top: 20px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#gem-list {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+}
+
+#gem-items {
+    list-style: none;
+    padding: 0;
+}
+
+#gem-items li {
+    margin: 10px 0;
+}

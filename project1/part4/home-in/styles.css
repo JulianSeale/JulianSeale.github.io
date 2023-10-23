@@ -1,0 +1,137 @@
+body{
+    background-color: #BF9397;
+}
+#main-header {
+    background-color:#D8D7D9;
+}
+
+#main-nav ul{
+    padding-left:0;
+    text-align: center;
+}
+
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: #A67C49;
+    border-bottom: 1px solid #A67C49;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: #BF9397;
+}
+
+#topbar h1,#topbar h3{
+    margin:0;
+}
+#topbar h1{
+    font-size: 50px;
+    padding-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #BF9397;
+}
+
+#advise h2{
+text-align: right;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #BF9397;
+}
+
+#subhead h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #A67C49
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #BF9397;
+}
+
+.slideshow{
+    background-color:grey;
+    
+   
+    border-top: 2px;
+    border-radius: 2px;
+    margin:20px;
+    padding: 0.5px;
+    height: 300px;
+    width: 300px;
+    
+}
+
+
+/* Slideshow */
+.hidden {
+    display: none;
+}
+
+.columns section {
+    padding: 1%;
+    margin: 1%;
+}
+
+.slideHide {
+    animation-name: slideOut;
+    animation-duration: .5s;
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/*Larger Resolutiond*/
+@media (min-width:900px) {
+    #main-nav ul, .flex-container{
+     display:flex;
+    }
+ 
+    #topbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+     #main-nav li{
+         flex: 1;
+     }
+
+     .flex-container2{
+        display:flex;
+       flex-wrap: wrap;
+      justify-content: center;
+        
+       }
+       
+       .slideshow{
+           flex:4;
+           
+       }
+    
+ }
+
+ 
