@@ -5,14 +5,14 @@
       "Gem Type": "Diamond",
       "Price": 1200.00,
       "Description": "Classic and elegant diamond stud earrings, perfect for any occasion.",
-      "Image": "earrings1.jpg"
+      "Image": "images/earrings1.jpg"
     },
     {
       "Name": "Sapphire and White Gold Drop Earrings",
       "Gem Type": "Sapphire",
       "Price": 800.00,
       "Description": "Beautiful sapphire drop earrings set in white gold, a stunning choice.",
-      "Image": "earrings2.jpg"
+      "Image": "images/earrings2.jpg"
     }
   ],
   "necklaces": [
@@ -21,14 +21,14 @@
       "Gem Type": "Gold",
       "Price": 350.00,
       "Description": "A charming gold heart pendant necklace that makes a lovely gift.",
-      "Image": "necklace1.jpg"
+      "Image": "images/necklace1.jpg"
     },
     {
       "Name": "Pearl and Silver Chain Necklace",
       "Gem Type": "Pearl",
       "Price": 550.00,
       "Description": "A timeless pearl necklace with a delicate silver chain for a touch of elegance.",
-      "Image": "necklace2.jpg"
+      "Image": "images/necklace2.jpg"
     }
   ],
   "watches": [
@@ -37,14 +37,14 @@
       "Gem Type": "Leather",
       "Price": 280.00,
       "Description": "A stylish men's chronograph watch with a genuine leather strap.",
-      "Image": "watch1.jpg"
+      "Image": "images/watch1.jpg"
     },
     {
       "Name": "Women's Rose Gold Wristwatch",
       "Gem Type": "Rose Gold",
       "Price": 420.00,
       "Description": "A stunning rose gold wristwatch for the modern woman.",
-      "Image": "watch2.jpg"
+      "Image": "images/watch2.jpg"
     }
   ],
   "rings": [
@@ -53,14 +53,14 @@
       "Gem Type": "Emerald",
       "Price": 2800.00,
       "Description": "A breathtaking emerald engagement ring set in platinum, a symbol of eternal love.",
-      "Image": "ring1.jpg"
+      "Image": "images/ring1.jpg"
     },
     {
       "Name": "Silver Celtic Knot Ring",
       "Gem Type": "Silver",
       "Price": 95.00,
       "Description": "A unique silver ring featuring a traditional Celtic knot design.",
-      "Image": "ring2.jpg"
+      "Image": "images/ring2.jpg"
     }
 ]
 }

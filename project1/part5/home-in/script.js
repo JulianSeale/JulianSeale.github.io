@@ -1,3 +1,9 @@
+//toggle nav method from class
+const toggleNav = () => {
+  document.getElementById("nav-items").classList.toggle("hide-small");
+};
+
+
 const slide = () => {
     const slideshows = document.querySelectorAll(".slideshow");
   
@@ -17,5 +23,7 @@ const slide = () => {
   
   window.onload = () => {
     setInterval(slide, 1000);
+
+    document.getElementById("hamburger").onclick = toggleNav;
   };
   

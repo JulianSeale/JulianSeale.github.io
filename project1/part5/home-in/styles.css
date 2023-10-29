@@ -68,6 +68,17 @@ a{
     
 }
 
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.hide-small {
+    display: none;
+}
+
 
 /* Slideshow */
 .hidden {
@@ -132,6 +143,12 @@ a{
            
        }
     
+       #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
  }
 
  
